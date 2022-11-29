@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafes</title>
+    <style>
+        .main{
+            margin: 0;
+            padding: 0px;
+        }
+        header{
+            border: 1.5px solid black;
+            border-radius: 3px;
+            background-image: url("photos/iteam5.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .img{
+            padding-left: 10px;
+            margin: 0px;
+            height: 100px;
+            width: 110px;
+            border-radius: 50%;
+        }
+        .img:hover{
+            border: 3px solid #ed6b09;
+        }        
+        ul{
+            float: right;
+            margin: 0px;
+        }
+        .navbar{
+            float: left;
+            list-style: none;
+            padding: 30px;
+            font-size: 30px;
+            font-weight: 900;
+            font-family: cursive;
+        }
+        #navbar{
+            text-decoration:overline;
+        }
+        #navbar:hover{
+            color: black;
+            text-decoration:underline;
+        }
+        .subject{
+            border: 1px solid transparent;
+            height: 53rem;
+        }
+        .img1{
+            padding-left: 18px;
+            padding-top: 8px;
+            height: 25rem;
+            width: 30rem;
+        }
+        .a{
+            float: right;
+        }
+        #details{
+            padding-right: 50px;
+            padding-top: 30px;
+            list-style: none;
+            font-size: 35px;
+            font-weight: 300;
+            line-height: 60px;
+        }
+        .ab{
+            text-decoration: none;
+        }
+        .ab:hover{
+            color: orangered;
+            text-decoration:overline ;
+        }
+        .img2{
+            float: right;
+            padding-left: 18px;
+            padding-top: 8px;
+            height: 25rem;
+            width: 30rem;
+        }
+        #details1{
+            padding-right: 50px;
+            padding-top: 30px;
+            list-style: none;
+            font-size: 35px;
+            font-weight: 300;
+            line-height: 60px;
+        }
+        .abc:hover{
+            color: orangered;
+            text-decoration:overline ;
+        }
+        .page1{
+            display: flex;
+            justify-content: center;
+        }
+        .page1-button{
+            height: 50px;
+            width: 50px;
+        }
+        .page1-button:hover{
+            background-color: black;
+            opacity: 0.5;
+            color: white;
+        }
+        .page1-ancer{
+            font-size: 30px;
+            font-weight: 550;
+            text-decoration: none;
+            font-family: cursive;
+        }
+        .page1-ancer:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <a href="signin.html"><img src="./photos/download (1).jfif" class="img" ></a>
+            <ul>
+                <li class="navbar"><a href="./index.html" id="navbar">Home</a></li>
+                <li class="navbar"><a href="./orders.html" id="navbar">orders</a></li>
+                <li class="navbar"><a href="./offers.html" id="navbar">offers</a></li>
+                <li class="navbar"><a href="./cart.html" id="navbar">Cart</a></li>
+            </ul>
+        </header>
+        <nav>
+            <div class="subject">
+                <img src="./photos/cafes.jpg" class="img1">
+                <div class="a">
+                    <ul class="details">
+                        <li id="details">Place : Dilsukhnagar</li>
+                        <li id="details">Timings : 11:00am to 11:00pm</li>
+                        <li id="details">Address : <a href="#" class="ab"> opposite klm shopping mall </a></li>
+                        <li id="details"><a href="./delivery.html" class="ab"> Book a section </a></li>
+                    </ul>
+                </div>
+                <img src="./photos/bestcafe.jpg" class="img2">
+                <div class="b">
+                    <ul class="details1">
+                        <li id="details1">Place : Dilsukhnagar</li>
+                        <li id="details1">Timings : 11:00am to 11:00pm</li>
+                        <li id="details1">Address : <a href="#" class="abc"> opposite klm shopping mall </a></li>                            <li id="details1"><a href="./delivery.html" class="abc"> Book a section </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="page1">
+            <button class="page1-button"><a href="./index.html" class="page1-ancer">1</a></button>
+            <button class="page1-button"><a href="./orders.html" class="page1-ancer">2</a></button>
+            <button class="page1-button"><a href="./offers.html" class="page1-ancer">3</a></button>
+        </div>
+    </div>
+</body>
+</html>
